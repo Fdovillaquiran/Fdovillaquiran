@@ -1,0 +1,125 @@
+:root{
+    --fuenteHeading: 'PT Sans', 'sans-serif';
+    --fuenteParrafos: 'Open Sans', 'sans-serif';
+
+    --primario: #1c3859;
+    --secundario: #abc274;
+    --terceario: #b4baa8;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--fuenteParrafos);
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: var(--primario);
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    background-color: var(--secundario);
+    color: var(--primario);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 40px;
+    line-height: 0px;
+}
+.header__thumbnail{
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+.header__img{
+    width: 100%;
+    border-radius: 5px;    
+    position: absolute;
+    top: -60px;
+}
+.header__datos{
+    position: relative;
+}
+.header__nombre{
+    font-family: var(--fuenteHeading);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dato{
+    display: flex;
+    align-items: center;
+}
+.dato__icono{
+    margin-right: 10px;
+}
+.header__titulo{
+    font-family: var(--fuenteHeading);
+    position: absolute;
+    right: 10px;
+    bottom: -15px;
+}
+.marco{
+    background-color: var(--primario);
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+    position: absolute;
+    top: -30px;
+    left: 5%;
+    z-index: -10;
+}
+.complemento{
+    background-color: var(--primario);
+    font-size: var(--fuenteParrafos);
+    width: 90%;
+    margin-top: -15px;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+    z-index: -10;
+}
+.separador{
+    width: 90%;
+    height: 1px;
+}
+.componente__titulo{
+    font-family: var(--fuenteHeading);
+    margin-left: 10px;
+}
+.componente__separador{
+    width: 90%;
+    margin: 0 auto;
+}
+.componente__texto{
+    margin-left: 15px;
+}
+.componente__lista{
+    list-style: none;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+.footer{
+    background-color: var(--secundario);
+    color: var(--primario);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
