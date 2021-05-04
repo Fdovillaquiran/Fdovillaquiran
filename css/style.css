@@ -28,73 +28,56 @@ a:hover{
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
-    position: relative;
+}
+.marco{
+    background-color: var(--primario);
+    width: 90%;
+    height: 40px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 5%;
+    margin-top: 20px;
 }
 .header{
     background-color: var(--secundario);
     color: var(--primario);
     border-radius: 15px;
     padding: 20px;
-    margin-top: 40px;
-    line-height: 0px;
 }
 .header__thumbnail{
     width: 100px;
     height: 50px;
     margin: 0 auto;
-    position: relative;
 }
 .header__img{
     width: 100%;
-    border-radius: 5px;    
-    position: absolute;
-    top: -60px;
-}
-.header__datos{
-    position: relative;
+    border-radius: 5px;
+    margin-top: -60px;
 }
 .header__nombre{
     font-family: var(--fuenteHeading);
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-bottom: 20px;
 }
 .dato{
     display: flex;
     align-items: center;
+    line-height: 1px;
 }
 .dato__icono{
     margin-right: 10px;
 }
 .header__titulo{
     font-family: var(--fuenteHeading);
-    position: absolute;
-    right: 10px;
-    bottom: -15px;
-}
-.marco{
-    background-color: var(--primario);
-    width: 90%;
-    height: 40px;
-    border-radius: 15px;
-    position: absolute;
-    top: -30px;
-    left: 5%;
-    z-index: -10;
+    text-align: right;
 }
 .complemento{
     background-color: var(--primario);
     font-size: var(--fuenteParrafos);
     width: 90%;
-    margin-top: -15px;
     margin: 0 auto;
     color: white;
-    position: relative;
-    z-index: -10;
-}
-.separador{
-    width: 90%;
-    height: 1px;
+    padding-top: 1px;
 }
 .componente__titulo{
     font-family: var(--fuenteHeading);
@@ -105,12 +88,13 @@ a:hover{
     margin: 0 auto;
 }
 .componente__texto{
-    margin-left: 15px;
+    padding-left: 20px;
 }
 .componente__lista{
     list-style: none;
     line-height: normal;
-    padding-bottom: 15px;
+    margin: 0;
+    padding: 15px 20px;
 }
 .footer{
     background-color: var(--secundario);
