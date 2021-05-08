@@ -15,7 +15,7 @@ html{
 }
 body{
     font-family: var(--fuenteParrafos);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 a{
     text-decoration: none;
@@ -36,6 +36,14 @@ a:hover{
     border-radius: 15px 15px 0 0;
     margin-left: 5%;
     margin-top: 20px;
+    text-align: right;
+}
+.marco__encabezado{
+    font-size: 1.2rem;
+    display: inline-block;
+    padding-right: .5rem;
+    margin-top: 1rem;
+    color: white;
 }
 .header{
     background-color: var(--secundario);
@@ -43,15 +51,22 @@ a:hover{
     border-radius: 15px;
     padding: 20px;
 }
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__i{
+    padding: 6px;
+}
 .header__thumbnail{
     width: 100px;
-    height: 50px;
+    height: 30px;
     margin: 0 auto;
 }
 .header__img{
     width: 100%;
     border-radius: 5px;
-    margin-top: -60px;
+    margin-top: -80px;
 }
 .header__nombre{
     font-family: var(--fuenteHeading);
@@ -78,6 +93,7 @@ a:hover{
     margin: 0 auto;
     color: white;
     padding-top: 1px;
+    padding-bottom: 5px;
 }
 .componente__titulo{
     font-family: var(--fuenteHeading);
@@ -94,7 +110,7 @@ a:hover{
     list-style: none;
     line-height: normal;
     margin: 0;
-    padding: 15px 20px;
+    padding-top: 5px;
 }
 .footer{
     background-color: var(--secundario);

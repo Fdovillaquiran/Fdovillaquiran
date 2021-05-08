@@ -11,17 +11,19 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <section class="marco">
-        </section>
+    <div id="inicio" class="container">
+        <div class="marco">
+        </div>
         <header class="header">
             <nav class="header__nav">
-                <i class="fas fa-ellipsis-h fa-2x"></i>
-                <i class="fas fa-arrow-alt-circle-left fa-2x"></i>
-                <i class="fas fa-arrow-alt-circle-right fa-2x"></i>   
+                <i class="header__i fas fa-ellipsis-h fa-2x"></i>
+                <div>
+                    <i class="header__i fas fa-arrow-alt-circle-left fa-2x"></i>
+                <i class="header__i fas fa-arrow-alt-circle-right fa-2x"></i> 
+                </div>  
             </nav>
             <figure class="header__thumbnail">
-                <img class="header__img header__img--absolute" src="image/fdo.jpg" alt="Foto perfil">
+                <img class="header__img" src="image/fdo.jpg" alt="Foto perfil">
             </figure>
             <div class="header__datos">
                 <div class="header__nombre">
@@ -71,19 +73,37 @@
                     <li><i componente__icono class="far fa-check-circle"></i> GIT</li>
                     <li><i componente__icono class="far fa-check-circle"></i> HTML5 & CSS3</li>
                     <li><i componente__icono class="far fa-check-circle"></i> JavaScript</li>
+                    <li><i componente__icono class="far fa-check-circle"></i> Backend: NodeJS (Express) & Phyton(Flask)</li>
                     <li><i componente__icono class="far fa-check-circle"></i> Frontend: React & Vue</li>
-                    <li><i componente__icono class="far fa-check-circle"></i> Backend: Node & PHP-Laravel</li>
-                    <li><i componente__icono class="far fa-check-circle"></i> BD Relacionales: SQL Server & MySQL </li>
+                    <li><i componente__icono class="far fa-check-circle"></i> Bases de Datos: SQL Server & MySQL </li>
                     <li><i componente__icono class="far fa-check-circle"></i> Inteligencia de Negocios: PowerBI</li>
                 </ul>
             </div>
-            <!-- <div class="componente">
+            <div class="componente">
                 <h2 class="componente__titulo">Idiomas</h2>
                 <hr class="componente__separador">
-                <p class="componente__texto">nljhdshshdsl</p>
-            </div> -->
+                <ul class="componente__lista">
+                    <li>Español : Nativo</li>
+                    <li>English : Basic</li>
+                </ul>
+            </div>
         </section>
-        <!-- <main class="experiencia-laboral">
+    </div>
+    <div id="experiencia" class="container">
+        <div class="marco">
+            <h2 class="marco__encabezado">CV Fernando Andrés Villaquirán Hurtado</h2>
+        </div>
+        <div class="header header__encabezado">
+            <div >
+                <i class="header__i fas fa-ellipsis-h fa-2x"></i>
+            </div>
+            <div>
+                <i class="header__i fas fa-arrow-alt-circle-left fa-2x"></i>
+            <i class="header__i fas fa-arrow-alt-circle-right fa-2x"></i> 
+            </div>  
+            <h2>EXPERIENCIA PROFESIONAL</h2>
+        </div>
+        <main class="experiencia-laboral">
             <div class="laboral">
                 <div class="tiempo">
 
@@ -108,7 +128,8 @@
         
                 </div>
             </div>
-        </main> -->
+        </main>
+    </div>
         <!-- <section class="estudios">
 
         </section>
