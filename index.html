@@ -16,10 +16,10 @@
         </div>
         <header class="header">
             <nav class="header__nav">
-                <i class="header__i fas fa-ellipsis-h fa-2x"></i>
+                <i id="menu-inicio" class="menu-inicio header__i fas fa-ellipsis-h fa-2x"></i>
                 <div>
-                    <i class="header__i fas fa-arrow-alt-circle-left fa-2x"></i>
-                    <i class="header__i fas fa-arrow-alt-circle-right fa-2x"></i> 
+                    <i id="izq-inicio" class="izq-inicio header__i fas fa-arrow-alt-circle-left fa-2x"></i>
+                    <a href="#"><i id="der-inicio" class="header__i fas fa-arrow-alt-circle-right fa-2x"></i></a>
                 </div>  
             </nav>
             <figure class="header__thumbnail">
@@ -27,7 +27,8 @@
             </figure>
             <div class="header__datos">
                 <div class="header__nombre">
-                    <h1>Fernando Andrés Villaquirán Hurtado</h1>
+                    <h1>Fernando Andrés</h1>
+                    <h1>Villaquirán Hurtado</h1>
                 </div>
                 <div class="dato">
                     <i class="dato__icono fas fa-map-marker-alt fa-lg"></i>
@@ -53,22 +54,19 @@
                     <i class="dato__icono fab fa-github"></i>
                     <h3><a href="https://github.com/Fdovillaquiran/Fdovillaquiran.github.io">github</a></h3>
                 </div>
-                <div class="header__titulo">
-                    <h2>INGENIERO DE SISTEMAS</h2>
-                </div>
-                
+                <h2 class="header__titulo">INGENIERO DE SISTEMAS</h2>                
             </div>
         </header>
         
         <section class="complemento">
             <div class="componente">
                 <h2 class="componente__titulo">Objetivo</h2>
-                <hr class="componente__separador">
+                <hr class="separador">
                 <p class="componente__texto">Ser todo un profesional de las tecnologías de la informacón</p>
             </div>
             <div class="componente">
                 <h2 class="componente__titulo">Tecnologías</h2>
-                <hr class="componente__separador">
+                <hr class="separador">
                 <ul class="componente__lista">
                     <li><i componente__icono class="far fa-check-circle"></i> GIT</li>
                     <li><i componente__icono class="far fa-check-circle"></i> HTML5 & CSS3</li>
@@ -81,7 +79,7 @@
             </div>
             <div class="componente">
                 <h2 class="componente__titulo">Idiomas</h2>
-                <hr class="componente__separador">
+                <hr class="separador">
                 <ul class="componente__lista">
                     <li>Español : Nativo</li>
                     <li>English : Basic</li>
@@ -89,7 +87,7 @@
             </div>
         </section>
     </div>
-    <div id="experiencia">
+    <div id="experiencia" class="experiencia">
         <div class="marco">
             <h2 class="marco__encabezado">CV Fernando Andrés Villaquirán Hurtado</h2>
         </div>
@@ -102,53 +100,69 @@
                 </div>  
             </nav>
             <div class="header__titulo">
-                <h2>EXPERIENCIA PROFESIONAL</h2>
+                <h2>INGENIERO DE SISTEMAS</h2>
             </div>
         </div>
-        <main class="experiencia-laboral">
+        <main class="exp-lab">
+            <h2 class="exp-lab__titulo">EXPERIENCIA PROFESIONAL</h2>
+            <hr class="separador separador--color">
+            
             <div class="laboral">
-                <div class="tiempo">
-
+                <div class="laboral__tiempo">
+                    <p>Nov. 2016 - Abr. 2020</p>
+                    <p>Trujillo - Valle, Colombia</p>
                 </div>
-                <div class="lugar">
-        
+                <div class="laboral__datos">
+                    <h3 class="laboral__lugar">HOSPITAL SANTA CRUZ E.S.E.</h3>
+                    <h3 class="laboral__cargo">Coordinador TI (Tecnologías de la información)</h3>
+                    <ul class="laboral__tareas">
+                        <li>Líder implementador y administrador HIS CNT pacientes</li>
+                        <li>Administrador gestor base de datos SQL Server</li>
+                        <li>Inteligencia de negocios: Reporting Services SQL Server</li>
+                        <li>Administrador de red y dominio Institucional</li>
+                        <li>Plan de Comunicaciones: Página web institucional y portal web de Intranet</li>
+                    </ul>
                 </div>
             </div>
             <div class="laboral">
-                <div class="tiempo">
-
+                <div class="laboral__tiempo">
+                    <p>Desde 2019</p>
+                    <p>Independiente</p>
                 </div>
-                <div class="lugar">
-        
+                <div class="laboral__datos">
+                    <h3 class="laboral__lugar">VILLA-QUIRAN</h3>
+                    <h3 class="laboral__cargo">Desarrollador web</h3>
+                    <ul class="laboral__tareas">
+                        <li>Sistema de Calidad - Laravel, VueJS</li>
+                        <li>Administrador de Servicios - NodeJS Express, VueJS</li>
+                        <li>Reportes personalizados: Reporting Services para clientes CNT Pacientes</li>
+                    </ul>
                 </div>
-            </div>
+            </div> 
             <div class="laboral">
-                <div class="tiempo">
-
+                <div class="laboral__tiempo">
+                    <p class="laboral__tp">Feb. 2006 - Mar. 2016</p>
+                    <p>La Unión - Valle, Colombia</p>
                 </div>
-                <div class="lugar">
-        
+                <div class="laboral__datos">
+                    <h3 class="laboral__lugar">HOSPITAL GONZALO CONTRERAS E.S.E.</h3>
+                    <h3 class="laboral__cargo">Lider de Gestión de la Información</h3>
+                    <ul class="laboral__tareas">
+                        <li>Líder proceso de acreditación en salud, estandares Gestión de la Información</li>
+                        <li>Lider implementador y admnistrador sistema hospitalario CNT Pacientes</li>
+                        <li>Inteligencia de negocios: Reporting Services SQL Server</li>
+                        <li>Administrador gestor base de datos SQL Server</li>
+                    </ul>
                 </div>
-            </div>
+            </div>  
+            
         </main>
     </div>
-    <!-- 
-    <div id="estudios">
-        <section class="estudios">
-
-        </section>
-        <section class="referencias">
-
-        </section>
-        <section class="formacion-adicional">
-
-        </section> 
-        
-    </div>-->
     <footer class="footer">
         <p class="footer__texto"><i class="far fa-copyright fa-lg"></i> Copyright Villa-Quiran</p>    
     </footer>
     
     <script src="https://kit.fontawesome.com/700b803e52.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>
