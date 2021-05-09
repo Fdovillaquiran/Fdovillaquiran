@@ -15,7 +15,6 @@ html{
 }
 body{
     font-family: var(--fuenteParrafos);
-    font-size: 1.4rem;
 }
 a{
     text-decoration: none;
@@ -33,6 +32,12 @@ a:hover{
     display: none;
 }
 .experiencia{
+    display: none;
+}
+.estudios{
+    display: none;
+}
+.referencias{
     display: none;
 }
 .marco{
@@ -62,7 +67,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
 }
-.menu-inicio, .izq-inicio{
+.menu-inicio, .izq-inicio, .der-referencias{
     color: gray;
 }
 .header__i{
