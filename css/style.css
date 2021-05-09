@@ -15,6 +15,7 @@ html{
 }
 body{
     font-family: var(--fuenteParrafos);
+    font-size: 2rem;
 }
 a{
     text-decoration: none;
@@ -50,7 +51,7 @@ a:hover{
     text-align: right;
 }
 .marco__encabezado{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 300;
     display: inline-block;
     padding-right: .5rem;
@@ -58,6 +59,7 @@ a:hover{
     color: white;
 }
 .header{
+    font-size: 1.6rem;
     background-color: var(--secundario);
     color: var(--primario);
     border-radius: 1.5rem;
@@ -85,9 +87,7 @@ a:hover{
 }
 .header__nombre{
     font-family: var(--fuenteHeading);
-    font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 2rem;
 }
 .dato{
     display: flex;
@@ -159,6 +159,10 @@ a:hover{
     align-items: center;
     justify-content: center;
     border-radius: .5rem;
+}
+
+@media (min-width: 576px){
+
 }
 
 
